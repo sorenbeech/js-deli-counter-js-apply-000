@@ -2,7 +2,7 @@ var katzDeliLine = [];
 var total = 1
 function takeANumber(katzDeliLine){
   katzDeliLine.push(total++);
-  return `Welcome. You are number ${katzDeliLine.length} of the day.`;
+  return `Welcome. You are number ${total-1} of the day.`;
 }
 function nowServing (katzDeliLine){
   if (katzDeliLine.length === 0)
